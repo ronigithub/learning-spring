@@ -1,7 +1,7 @@
 # learning-spring
 Learning Spring Framwork
 
-- Content
+> Learned Topic
 - Dependency Injection
 - Maven
 - ApplicationContext
