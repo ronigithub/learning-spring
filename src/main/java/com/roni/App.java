@@ -10,7 +10,10 @@ public class App
     {
         ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml"); // spring.xml can be any name
 
-        Vehicle obj = (Vehicle) context.getBean("car");
-        obj.drive();
+        Tyre tyre = (Tyre) context.getBean("tyre");
+        System.out.println(tyre);
+
+//        Vehicle obj = (Vehicle) context.getBean("car");
+//        obj.drive();
     }
 }
